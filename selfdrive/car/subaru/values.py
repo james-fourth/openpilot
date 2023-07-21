@@ -505,12 +505,13 @@ FW_VERSIONS = {
       b'\x9b\xc0\x20\x00',
       b'\x1b\xc0\x10\x00',
     ],
-    (Ecu.fwdCamera, 0x787, None): [
+    (Ecu.fwdCamera, 0x7c4, None): [
       b'\x00\x00eJ\x00\x1f@ \x19\x00',
       b'\000\000e\x80\000\037@ \031\000',
       b'\x00\x00e\x9a\x00\x00\x00\x00\x00\x00',
       b'\x00\x00e\x9a\x00\x1f@ 1\x00',
       b'\x00\x00eJ\x00\x00\x00\x00\x00\x00',
+      b'\xf1\x00\xac\x03\x00',
     ],
     (Ecu.engine, 0x7e0, None): [
       b'\xbc,\xa0q\x07',
@@ -534,6 +535,9 @@ FW_VERSIONS = {
       b'\xa7\xf6D@\x00',
       b'\xa7\xfe\xf4@\x00',
       b'\xa5\xfe\xf8@\x00',
+    ],
+    (Ecu.adas, 0x730, None): [
+      b'\xf1\x00\xbb\r\x07',
     ],
   },
 }
