@@ -489,30 +489,12 @@ FW_VERSIONS = {
   },
   CAR.OUTBACK: {
     (Ecu.abs, 0x7b0, None): [
-      b'\xa1  \x06\x01',
-      b'\xa1  \a\x00',
-      b'\xa1  \b\001',
-      b'\xa1  \x06\x00',
-      b'\xa1 "\t\x01',
-      b'\xa1  \x08\x02',
-      b'\xa1 \x06\x02',
-      b'\xa1  \x07\x02',
-      b'\xa1  \x08\x00',
-      b'\xa1 "\t\x00',
       b'\xa1 #\x16\x00',
     ],
     (Ecu.eps, 0x746, None): [
-      b'\x9b\xc0\x10\x00',
-      b'\x9b\xc0\x20\x00',
-      b'\x1b\xc0\x10\x00',
       b'+\xc0\x10\x11\x00',
     ],
     (Ecu.fwdCamera, 0x7c4, None): [
-      b'\x00\x00eJ\x00\x1f@ \x19\x00',
-      b'\000\000e\x80\000\037@ \031\000',
-      b'\x00\x00e\x9a\x00\x00\x00\x00\x00\x00',
-      b'\x00\x00e\x9a\x00\x1f@ 1\x00',
-      b'\x00\x00eJ\x00\x00\x00\x00\x00\x00',
       b'\xf1\x00\xac\x03\x00',
     ],
     (Ecu.engine, 0x7e0, None): [
